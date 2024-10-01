@@ -1,0 +1,24 @@
+.lista-avaliacoes {
+    list-style-type: none; /* Remove marcadores de lista */
+    padding: 0; /* Remove padding padrão */
+    margin: 0; /* Remove margens padrão */
+}
+
+.avaliacao-item {
+    margin-bottom: 20px; /* Espaço entre as avaliações */
+    padding: 15px; /* Espaçamento interno */
+    background-color: #f9f9f9; /* Cor de fundo da avaliação */
+    border: 1px solid #ccc; /* Borda da avaliação */
+    border-radius: 8px; /* Bordas arredondadas */
+}
+
+.comentario {
+    margin-top: 10px; /* Espaço acima do comentário */
+}
+
+.separador {
+    border: none; /* Remove a borda padrão */
+    height: 1px; /* Altura da linha */
+    background-color: #ccc; /* Cor da linha */
+    margin: 10px 0; /* Margens acima e abaixo da linha */
+}

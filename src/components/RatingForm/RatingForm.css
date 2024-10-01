@@ -1,0 +1,38 @@
+/* Estilo geral do formulário de avaliação */
+.rating-form {
+    max-width: 400px; /* Largura máxima do formulário */
+    margin: auto; /* Centraliza o formulário */
+    background-color: white; /* Cor de fundo do formulário */
+    border: 1px solid #ccc; /* Borda do formulário */
+    border-radius: 8px; /* Bordas arredondadas */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    padding: 20px; /* Espaçamento interno */
+}
+
+/* Estilo dos campos de entrada */
+.form-input {
+    margin-bottom: 15px; /* Espaçamento entre os campos */
+}
+
+/* Estilo para os rótulos */
+label {
+    display: block; /* Faz o label ocupar toda a largura */
+    margin-bottom: 5px; /* Espaçamento abaixo do label */
+    font-weight: bold; /* Negrito para o label */
+}
+
+/* Estilo do botão de seleção */
+select {
+    width: 100%; /* Largura total do campo */
+    padding: 10px; /* Espaçamento interno */
+    border: 1px solid #ccc; /* Borda do campo */
+    border-radius: 4px; /* Bordas arredondadas */
+    box-sizing: border-box; /* Inclui padding e border no tamanho total */
+    transition: border-color 0.3s; /* Transição suave para a borda */
+}
+
+/* Estilo ao focar no campo de seleção */
+select:focus {
+    border-color: #007BFF; /* Cor da borda ao focar */
+    outline: none; /* Remove a borda padrão do navegador */
+}

@@ -1,0 +1,17 @@
+/* Estilo para o contêiner do campo do formulário */
+.form-input {
+    margin-bottom: 15px; /* Espaçamento abaixo de cada campo */
+}
+
+/* Estilo para o rótulo do campo do formulário */
+.form-input label {
+    display: block; /* Faz o rótulo ocupar toda a largura do contêiner */
+    margin-bottom: 5px; /* Espaçamento abaixo do rótulo */
+}
+
+/* Estilo para o campo de entrada do formulário */
+.form-input input {
+    width: 100%; /* Campo ocupa toda a largura do contêiner */
+    padding: 8px; /* Espaçamento interno do campo */
+    box-sizing: border-box; /* Inclui padding e border no tamanho total */
+}

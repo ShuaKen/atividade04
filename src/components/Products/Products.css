@@ -1,0 +1,115 @@
+.products {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px; /* Defina uma largura máxima */
+    margin: 0 auto; /* Centraliza o contêiner */
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+
+.lista-produtos {
+    display: flex;
+    flex-wrap: wrap; /* Permite que os itens se movam para a próxima linha */
+    justify-content: space-between; /* Espaça os itens */
+    padding: 0; /* Remove padding padrão */
+    list-style-type: none; /* Remove marcadores de lista */
+}
+
+.produto-item {
+    flex: 0 0 calc(33.333% - 20px); /* Largura de 33.333% menos as margens */
+    margin: 10px; /* Margem ao redor de cada item */
+    box-sizing: border-box; /* Inclui padding e borda no total da largura */
+    position: relative; /* Para o posicionamento do botão de exclusão */
+}
+
+.item-lista-products img {
+    width: 100%; /* A imagem ocupa 100% da largura do contêiner */
+    height: auto; /* A altura ajusta automaticamente */
+    max-height: 400px; /* Altura máxima para manter a proporção sem distorção */
+    object-fit: contain; /* Mantém a proporção da imagem */
+    border-radius: 8px; /* Mantém a borda arredondada */
+}
+
+.image-container {
+    position: relative; /* Para permitir o posicionamento absoluto do botão */
+}
+.produto-item {
+    flex: 0 0 calc(33.333% - 20px); /* Largura de 33.333% menos as margens */
+    margin: 10px; /* Margem ao redor de cada item */
+    box-sizing: border-box; /* Inclui padding e borda no total da largura */
+    position: relative; /* Para o posicionamento do botão de exclusão */
+    background-color: #ffffff; /* Fundo branco para os produtos */
+    border-radius: 8px; /* Bordas arredondadas */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Sombra mais pronunciada */
+    transition: transform 0.2s, box-shadow 0.2s; /* Transição suave ao passar o mouse */
+}
+
+.produto-item:hover {
+    transform: translateY(-5px); /* Levanta o item ao passar o mouse */
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2); /* Aumenta a sombra ao passar o mouse */
+}
+.products {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 20px; /* Espaçamento ao redor de todo o componente */
+    background-color: #f9f9f9; /* Cor de fundo suave */
+}
+
+h2 {
+    margin: 20px 0; /* Espaçamento acima e abaixo dos títulos */
+    font-family: Arial, sans-serif; /* Fonte para os títulos */
+    color: #333; /* Cor do texto do título */
+}
+
+/* Estilo para o formulário de produtos */
+form {
+    background-color: #ffffff; /* Fundo branco para o formulário */
+    border-radius: 8px; /* Bordas arredondadas */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    padding: 20px; /* Espaçamento interno do formulário */
+    margin-bottom: 20px; /* Espaçamento abaixo do formulário */
+    width: 100%;
+    max-width: 600px; /* Largura máxima do formulário */
+}
+
+/* Estilo para a lista de produtos */
+.lista-produtos {
+    display: flex;
+    flex-wrap: wrap; /* Permite que os itens se movam para a próxima linha */
+    justify-content: space-between; /* Espaça os itens */
+    padding: 0; /* Remove padding padrão */
+    list-style-type: none; /* Remove marcadores de lista */
+}
+
+/* Estilo para os itens da lista de produtos */
+.produto-item {
+    flex: 0 0 calc(33.333% - 20px); /* Largura de 33.333% menos as margens */
+    margin: 10px; /* Margem ao redor de cada item */
+    box-sizing: border-box; /* Inclui padding e borda no total da largura */
+    position: relative; /* Para o posicionamento do botão de exclusão */
+    background-color: #ffffff; /* Fundo branco para os produtos */
+    border-radius: 8px; /* Bordas arredondadas */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Sombra mais pronunciada */
+    transition: transform 0.2s, box-shadow 0.2s; /* Transição suave ao passar o mouse */
+}
+
+.produto-item:hover {
+    transform: translateY(-5px); /* Levanta o item ao passar o mouse */
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2); /* Aumenta a sombra ao passar o mouse */
+}
+
+/* Estilo para a lista de avaliações */
+.review-list {
+    background-color: #ffffff; /* Fundo branco para as avaliações */
+    border-radius: 8px; /* Bordas arredondadas */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    padding: 20px; /* Espaçamento interno */
+    margin-top: 20px; /* Espaçamento acima da lista de avaliações */
+    width: 100%;
+    max-width: 600px; /* Largura máxima da lista de avaliações */
+}

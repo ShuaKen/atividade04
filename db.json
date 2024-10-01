@@ -1,0 +1,37 @@
+{
+  "Products": [
+    {
+      "id": "5948",
+      "productName": "Camiseta Sukuna Preta",
+      "image": "https://down-br.img.susercontent.com/file/b3a4790136a152fe36150b4ee9a136d9",
+      "description": "Camiseta do Sukuna mostrando a mão"
+    },
+    {
+      "id": "ee49",
+      "productName": "Camiseta Harry Potter",
+      "image": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQdIgxm4sAJnVD0shjVmnu5DJDni401mQJ4yC5g9gZEw6UDdHaf_U6UCGHnnILReuvKB6AzQ5loEcTsd1B4565s6W7Yg_H9HgZyqpAOOYk&usqp=CAE",
+      "description": "Camiseta do Harry Potter"
+    },
+    {
+      "id": "cff5",
+      "productName": "Camiseta Goku",
+      "image": "https://www.fabricamundofitness.com.br/cdn/shop/files/372677aad93693d1e575fec3a975b428.jpg?v=1687619144",
+      "description": "Camiseta do Goku preta"
+    },
+    {
+      "id": "14b2",
+      "productName": "camiseta do Símbolo do Batman",
+      "image": "https://61971.cdn.lojaquevende.com.br/static/61971/sku/roupas-camisetas-masculinas-produto-teste-camiseta-batman-preta-pode-excluir-1494097276451.jpg",
+      "description": "camiseta preta com o símbolo do Batman clássico "
+    }
+  ],
+  "Reviews": [
+    {
+      "id": "77ba",
+      "productId": "3",
+      "name": "João Marcos",
+      "email": "joãomarcos@gmail.com",
+      "rating": 1
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+.header {
+    background-color: #282c34; /* Cor de fundo escura */
+    color: white; /* Cor do texto branca */
+    padding: 10px 0; /* Espaçamento vertical de 10px e sem espaçamento horizontal */
+    display: flex; /* Usando Flexbox para organizar os itens */
+    justify-content: space-between; /* Espaça os itens para os lados */
+}
+
+.header h1 {
+    font-size: 1.2rem; /* Tamanho da fonte para o título */
+    margin-left: 0.5rem; /* Espaço à esquerda do título */
+}

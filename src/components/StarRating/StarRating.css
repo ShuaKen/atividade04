@@ -1,0 +1,17 @@
+.star-rating {
+    display: flex;
+    justify-content: center; /* Centraliza as estrelas horizontalmente */
+    cursor: pointer;
+    
+}
+
+.star {
+    font-size: 24px;
+    color: #ccc; /* Cor padrão das estrelas */
+    margin-right: 5px;
+}
+
+.star.filled {
+    color: gold; /* Cor das estrelas preenchidas */
+    
+}

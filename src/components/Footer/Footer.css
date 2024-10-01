@@ -1,0 +1,56 @@
+/* Define a altura total do html e body para permitir o uso de flexbox */
+html, body {
+    height: 100%; /* Define a altura total da página */
+    margin: 0; /* Remove margens padrão */
+}
+
+/* Estilo do body para usar flexbox */
+body {
+    display: flex; /* Permite a distribuição de filhos usando flexbox */
+    flex-direction: column; /* Organiza os filhos em coluna */
+}
+
+/* Estilo da classe principal da aplicação */
+.App {
+    flex: 1; /* Permite que o conteúdo principal cresça e ocupe espaço disponível */
+    display: flex; /* Habilita o uso de flexbox para conteúdo interno */
+    flex-direction: column; /* Organiza os filhos em coluna */
+    justify-content: space-between; /* Distribui o espaço entre os elementos filhos */
+}
+
+/* Estilo do rodapé */
+.footer {
+    background-color: #282c34; /* Cor de fundo do rodapé */
+    color: white; /* Cor do texto */
+    padding: 20px; /* Espaçamento interno */
+    text-align: center; /* Centraliza o texto */
+}
+
+/* Conteúdo do rodapé com largura máxima */
+.footer-content {
+    max-width: 1200px; /* Define a largura máxima do conteúdo */
+    margin: 0 auto; /* Centraliza horizontalmente */
+}
+
+/* Estilo para a lista de links do rodapé */
+.footer-links {
+    list-style: none; /* Remove marcadores de lista */
+    padding: 0; /* Remove padding padrão */
+}
+
+/* Estilo para cada item de link do rodapé */
+.footer-links li {
+    display: inline; /* Exibe os itens em linha */
+    margin: 0 15px; /* Espaçamento horizontal entre os itens */
+}
+
+/* Estilo para links no rodapé */
+.footer-links a {
+    color: white; /* Cor do texto do link */
+    text-decoration: none; /* Remove o sublinhado padrão */
+}
+
+/* Estilo para links ao passar o mouse */
+.footer-links a:hover {
+    text-decoration: underline; /* Adiciona sublinhado ao passar o mouse */
+}

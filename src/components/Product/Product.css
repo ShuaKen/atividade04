@@ -1,0 +1,15 @@
+.image-container {
+    position: relative; /* Permite que os elementos filhos sejam posicionados em relação a este contêiner */
+}
+
+.delete-button {
+    position: absolute; /* Permite que o botão seja posicionado em relação ao contêiner pai */
+    top: 10px; /* Distância do topo */
+    right: 10px; /* Distância da direita */
+    background-color: red; /* Cor de fundo vermelha */
+    color: white; /* Cor do texto em branco para contraste */
+    border: none; /* Remove a borda padrão */
+    padding: 5px 10px; /* Adiciona algum espaço interno */
+    cursor: pointer; /* Muda o cursor ao passar o mouse */
+    border-radius: 4px; /* Cantos arredondados, opcional */
+}
