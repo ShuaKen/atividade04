@@ -29,11 +29,11 @@ Para instalar a aplicação, siga os passos abaixo:
 
 1. Clone o repositório:
    ```bash
-   git clone https://github.com/ShuaKen/atividade03.git
+   git clone https://github.com/ShuaKen/atividade04.git
    ```
 2. Navegue até o diretório do projeto:
    ```bash
-   cd atividade03
+   cd atividade004
    ```
 
 ## Uso
@@ -48,7 +48,7 @@ Acesse a aplicação no seu navegador em `http://localhost:3000`.
 
 ### Exemplo de uso
 
-Após a inicialização, pode ver os rankings e deixar uma sugestão.
+Após a inicialização, pode ver os produtos já adicionados, adicionar mais e excluir, também pode fazer comentarios.
 
 ## Licença
 
